@@ -7,6 +7,7 @@ LABEL org.label-schema.build-date=${BUILD_DATE} \
 org.label-schema.schema-version="1.0"
 
 RUN yarn global add retire@2.2.4
+RUN apk add curl
 
 WORKDIR /app
 
